@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8285CBE017A11B6D00E9AAE3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CBDF17A11B6D00E9AAE3 /* MapViewController.m */; };
+		8285CBE217A11C1800E9AAE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8285CBE117A11C1800E9AAE3 /* MapKit.framework */; };
+		8285CBE917A11F2500E9AAE3 /* IGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CBE617A11F2500E9AAE3 /* IGRequest.m */; };
+		8285CBEA17A11F2500E9AAE3 /* Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CBE817A11F2500E9AAE3 /* Instagram.m */; };
+		8285CBED17A12BFE00E9AAE3 /* PhotoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CBEC17A12BFE00E9AAE3 /* PhotoListTableViewController.m */; };
+		8285CBF017A1514C00E9AAE3 /* TTTTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285CBEF17A1514C00E9AAE3 /* TTTTimeIntervalFormatter.m */; };
 		82A2932317A1143E00B91BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2932217A1143E00B91BBA /* Foundation.framework */; };
 		82A2932517A1143E00B91BBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2932417A1143E00B91BBA /* CoreGraphics.framework */; };
 		82A2932717A1143E00B91BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2932617A1143E00B91BBA /* UIKit.framework */; };
@@ -14,7 +20,6 @@
 		82A2932F17A1143E00B91BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2932E17A1143E00B91BBA /* main.m */; };
 		82A2933317A1143E00B91BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2933217A1143E00B91BBA /* AppDelegate.m */; };
 		82A2933617A1143E00B91BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A2933417A1143E00B91BBA /* Main.storyboard */; };
-		82A2933917A1143E00B91BBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2933817A1143E00B91BBA /* ViewController.m */; };
 		82A2933B17A1143E00B91BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A2933A17A1143E00B91BBA /* Images.xcassets */; };
 		82A2934217A1143F00B91BBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2934117A1143F00B91BBA /* XCTest.framework */; };
 		82A2934317A1143F00B91BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A2932217A1143E00B91BBA /* Foundation.framework */; };
@@ -34,6 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8285CBDE17A11B6D00E9AAE3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8285CBDF17A11B6D00E9AAE3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8285CBE117A11C1800E9AAE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8285CBE417A11F2500E9AAE3 /* IGConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGConnect.h; sourceTree = "<group>"; };
+		8285CBE517A11F2500E9AAE3 /* IGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRequest.h; sourceTree = "<group>"; };
+		8285CBE617A11F2500E9AAE3 /* IGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRequest.m; sourceTree = "<group>"; };
+		8285CBE717A11F2500E9AAE3 /* Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instagram.h; sourceTree = "<group>"; };
+		8285CBE817A11F2500E9AAE3 /* Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instagram.m; sourceTree = "<group>"; };
+		8285CBEB17A12BFE00E9AAE3 /* PhotoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListTableViewController.h; sourceTree = "<group>"; };
+		8285CBEC17A12BFE00E9AAE3 /* PhotoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListTableViewController.m; sourceTree = "<group>"; };
+		8285CBEE17A1514C00E9AAE3 /* TTTTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		8285CBEF17A1514C00E9AAE3 /* TTTTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		82A2931F17A1143E00B91BBA /* Instagrawr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrawr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A2932217A1143E00B91BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82A2932417A1143E00B91BBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +62,6 @@
 		82A2933117A1143E00B91BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82A2933217A1143E00B91BBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82A2933517A1143E00B91BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82A2933717A1143E00B91BBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82A2933817A1143E00B91BBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82A2933A17A1143E00B91BBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82A2934017A1143F00B91BBA /* InstagrawrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagrawrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A2934117A1143F00B91BBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8285CBE217A11C1800E9AAE3 /* MapKit.framework in Frameworks */,
 				82A2932517A1143E00B91BBA /* CoreGraphics.framework in Frameworks */,
 				82A2932717A1143E00B91BBA /* UIKit.framework in Frameworks */,
 				82A2932317A1143E00B91BBA /* Foundation.framework in Frameworks */,
@@ -79,9 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8285CBE317A11F2500E9AAE3 /* instagram-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				8285CBE417A11F2500E9AAE3 /* IGConnect.h */,
+				8285CBE517A11F2500E9AAE3 /* IGRequest.h */,
+				8285CBE617A11F2500E9AAE3 /* IGRequest.m */,
+				8285CBE717A11F2500E9AAE3 /* Instagram.h */,
+				8285CBE817A11F2500E9AAE3 /* Instagram.m */,
+			);
+			name = "instagram-ios-sdk";
+			path = "Instagrawr/instagram-ios-sdk";
+			sourceTree = "<group>";
+		};
 		82A2931617A1143E00B91BBA = {
 			isa = PBXGroup;
 			children = (
+				8285CBE317A11F2500E9AAE3 /* instagram-ios-sdk */,
 				82A2932817A1143E00B91BBA /* Instagrawr */,
 				82A2934717A1143F00B91BBA /* InstagrawrTests */,
 				82A2932117A1143E00B91BBA /* Frameworks */,
@@ -101,6 +131,7 @@
 		82A2932117A1143E00B91BBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8285CBE117A11C1800E9AAE3 /* MapKit.framework */,
 				82A2932217A1143E00B91BBA /* Foundation.framework */,
 				82A2932417A1143E00B91BBA /* CoreGraphics.framework */,
 				82A2932617A1143E00B91BBA /* UIKit.framework */,
@@ -114,9 +145,13 @@
 			children = (
 				82A2933117A1143E00B91BBA /* AppDelegate.h */,
 				82A2933217A1143E00B91BBA /* AppDelegate.m */,
+				8285CBDE17A11B6D00E9AAE3 /* MapViewController.h */,
+				8285CBDF17A11B6D00E9AAE3 /* MapViewController.m */,
 				82A2933417A1143E00B91BBA /* Main.storyboard */,
-				82A2933717A1143E00B91BBA /* ViewController.h */,
-				82A2933817A1143E00B91BBA /* ViewController.m */,
+				8285CBEB17A12BFE00E9AAE3 /* PhotoListTableViewController.h */,
+				8285CBEC17A12BFE00E9AAE3 /* PhotoListTableViewController.m */,
+				8285CBEE17A1514C00E9AAE3 /* TTTTimeIntervalFormatter.h */,
+				8285CBEF17A1514C00E9AAE3 /* TTTTimeIntervalFormatter.m */,
 				82A2933A17A1143E00B91BBA /* Images.xcassets */,
 				82A2932917A1143E00B91BBA /* Supporting Files */,
 			);
@@ -199,6 +234,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Brian Eng";
 				TargetAttributes = {
+					82A2931E17A1143E00B91BBA = {
+						DevelopmentTeam = J53LNS3S32;
+					};
 					82A2933F17A1143F00B91BBA = {
 						TestTargetID = 82A2931E17A1143E00B91BBA;
 					};
@@ -249,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82A2933917A1143E00B91BBA /* ViewController.m in Sources */,
+				8285CBEA17A11F2500E9AAE3 /* Instagram.m in Sources */,
+				8285CBE017A11B6D00E9AAE3 /* MapViewController.m in Sources */,
 				82A2933317A1143E00B91BBA /* AppDelegate.m in Sources */,
 				82A2932F17A1143E00B91BBA /* main.m in Sources */,
+				8285CBF017A1514C00E9AAE3 /* TTTTimeIntervalFormatter.m in Sources */,
+				8285CBED17A12BFE00E9AAE3 /* PhotoListTableViewController.m in Sources */,
+				8285CBE917A11F2500E9AAE3 /* IGRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Instagrawr/Instagrawr-Prefix.pch";
 				INFOPLIST_FILE = "Instagrawr/Instagrawr-Info.plist";
@@ -389,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Instagrawr/Instagrawr-Prefix.pch";
 				INFOPLIST_FILE = "Instagrawr/Instagrawr-Info.plist";
@@ -456,6 +500,7 @@
 				82A2935317A1143F00B91BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82A2935417A1143F00B91BBA /* Build configuration list for PBXNativeTarget "InstagrawrTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +509,7 @@
 				82A2935617A1143F00B91BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
